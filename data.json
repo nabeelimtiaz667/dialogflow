@@ -1,0 +1,12 @@
+{
+  "fulfillmentText": "Your Order ID please?",
+  "fulfillmentMessages": [
+    {
+      "text": {
+        "text": [
+          "Text response from webhook"
+        ]
+      }
+    }
+  ]
+}
