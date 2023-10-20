@@ -6,7 +6,6 @@ $orderId = $json_data->queryResult->parameters->orderid;
 $apiData = http_build_query(array (
     "orderId" => $orderId
 ));
-$json_data->queryResult->parameters->orderid = $orderId;
 
 $request = curl_init();
 curl_setopt($request, CURLOPT_URL, 'https://orderstatusapi-dot-organization-project-311520.uc.r.appspot.com/api/getOrderStatus');
